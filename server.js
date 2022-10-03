@@ -27,10 +27,12 @@ app.use(cors());
 
 //create connection
 const conn =mysql.createConnection({
-    host:'localhost',
+    host:'database-1.cp8omipjfldw.ap-northeast-1.rds.amazonaws.com',
     user:'root',
-    password: '',
-    database:'tracker'
+    password: 'guri1234',
+    database:'track',
+    port:'3306'
+
 });
 
 
